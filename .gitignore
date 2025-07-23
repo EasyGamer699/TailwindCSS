@@ -1,0 +1,7 @@
+# Alles ignorieren
+*
+
+# Nicht Ingorieren
+!.gitignore
+!README.md
+!website/
