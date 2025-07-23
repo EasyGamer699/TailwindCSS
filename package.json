@@ -1,0 +1,16 @@
+{
+  "name": "tailwindcss",
+  "version": "1.0.0",
+  "description": "My first Tailwind CSS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss-cli@latest build -i ./src/tailwind.css -o ./website/style.css",
+    "build": "cross-env NODE_ENV=production npx tailwindcss-cli@latest build -i ./src/tailwind.css -o ./website/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
