@@ -1,5 +1,9 @@
 # Alles ignorieren
-*
+node_modules
+src
+package-lock.json
+package.json
+tailwind.config.js
 
 # Nicht Ingorieren
 !.gitignore
